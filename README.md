@@ -31,6 +31,7 @@ Verified from DSI Hospital's own public profiles and listings (checked October 2
 - **Mission/Vision:** as published on the hospital's LinkedIn page
 - **Departments/services:** from the hospital's official Instagram/Facebook posts — 24/7 Emergency, 24/7 Gynae & Obs emergency, Gynae & Obs, IVF & Fertility, NICU, Pediatrics, Cardiology, ENT, Urology, Aesthetic care, General Medicine/Internal Medicine OPD (9:00 AM–1:00 PM), Operation Theaters, 24-hour Pharmacy, 24-hour Laboratory, Ultrasound
 - **Doctor:** Dr. Sheeba Irum — Consultant Gynaecologist & Medical Director (as quoted in Geo.tv's cervical-cancer feature, September 2025)
+- **Images:** all photos/graphics in `assets/images/social/` are the hospital's own branded posts from its official Instagram (`@dsi_hospital`) — IVF, Operation Theaters, Cardiology, ENT, NICU, Gynae, Aesthetic, Urology, Pharmacy, Pediatrics graphics plus a real reception/OPD photograph. Stock/reposted images from the account were deliberately not used.
 
 ### Source links
 - Instagram: https://www.instagram.com/dsi_hospital/
