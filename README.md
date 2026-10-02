@@ -1,12 +1,12 @@
-# DSI Hospital Website Project
+# DSI Hospital Website
 
-A complete responsive static front-end website concept for DSI Hospital, Gulistan-e-Johar, Karachi.
+A complete responsive static website for **DSI Hospital**, Gulistan-e-Jauhar, Karachi — *"Where Wellness Begins"*.
 
 ## Pages
 - `index.html` — Home
 - `about.html` — About
-- `doctors.html` — Doctors directory template
-- `departments.html` — Departments template
+- `doctors.html` — Doctors directory
+- `departments.html` — Departments
 - `services.html` — Patient services
 - `patient-guide.html` — Patient guide + FAQ
 - `contact.html` — Contact form + location
@@ -21,20 +21,35 @@ python -m http.server 8000
 
 Then visit `http://localhost:8000`.
 
-## Important before production
-The public sources checked during development support this address and phone:
-- Address: A-1, Block 4, Gulistan-e-Johar, Karachi, Pakistan
-- Phone: 0314-0725738
+## Hospital data used on the site
+Verified from DSI Hospital's own public profiles and listings (checked October 2026):
 
-The project intentionally does **not** invent a full doctor roster, hospital hours, accreditations, bed count, or complete service list. Confirm those details with DSI Hospital before publication.
+- **Hospital:** DSI Hospital — private hospital established **2023**, open **24 hours**
+- **Address:** A-1, Block 4, Gulistan-e-Jauhar, School Road, Karachi (Google Maps & Yandex listings)
+- **Phone/WhatsApp:** 0314-0725738 · **Landline:** 021-34016615
+- **Email:** dsi.hospital@gmail.com
+- **Mission/Vision:** as published on the hospital's LinkedIn page
+- **Departments/services:** from the hospital's official Instagram/Facebook posts — 24/7 Emergency, 24/7 Gynae & Obs emergency, Gynae & Obs, IVF & Fertility, NICU, Pediatrics, Cardiology, ENT, Urology, Aesthetic care, General Medicine/Internal Medicine OPD (9:00 AM–1:00 PM), Operation Theaters, 24-hour Pharmacy, 24-hour Laboratory, Ultrasound
+- **Doctor:** Dr. Sheeba Irum — Consultant Gynaecologist & Medical Director (as quoted in Geo.tv's cervical-cancer feature, September 2025)
 
-The appointment and contact forms are front-end demos. They currently save submissions to browser `localStorage`; they must be connected to a secure backend/API/email/CRM before a public launch.
+### Source links
+- Instagram: https://www.instagram.com/dsi_hospital/
+- Facebook: https://www.facebook.com/p/DSI-Hospital-61558665913517
+- LinkedIn: https://pk.linkedin.com/company/dsi-hospital
+- Google Maps: DSI Hospital, A-1, Block 4 Karachi, 75290
+- Yandex Maps (hours): https://yandex.com/maps/org/dsi_hospital/10518514821
+- Geo.tv article: https://www.geo.tv/latest/621658-silence-stigma-and-survival-the-hidden-face-of-cervical-cancer
+
+## Still worth confirming with the hospital
+- Full named consultant roster and individual OPD day/time schedules (the hospital has not published these publicly; the Doctors page uses the verified Medical Director plus department teams, and directs patients to call/WhatsApp for current schedules)
+- Consultation fees (the Rs 199 OPD offer seen on social media was limited-time)
+- Insurance/panel and admission policies
+
+## Forms
+The appointment and contact forms compose a pre-filled WhatsApp message to the hospital's official appointment line (0314-0725738) and also keep a local copy in `localStorage` as a backup. For a production workflow they can instead be connected to email, a CRM or a hospital management system.
 
 ## Customization
 - Colors and layout: `assets/css/style.css`
-- Navigation, footer and form demo logic: `assets/js/main.js`
+- Navigation, footer, contact constants and form logic: `assets/js/main.js`
 - Brand logo: `assets/images/dsi-logo.jfif`
 - Illustration assets: `assets/images/`
-
-The supplied DSI Hospital logo is wired into the shared header and footer, with the red, magenta, gray and white palette applied across the site.
-
